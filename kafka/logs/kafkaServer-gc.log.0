@@ -1,0 +1,22 @@
+[2022-02-19T17:12:59.735+0700][gc,heap] Heap region size: 1M
+[2022-02-19T17:12:59.756+0700][gc     ] Using G1
+[2022-02-19T17:12:59.756+0700][gc,heap,coops] Heap address: 0x00000000c0000000, size: 1024 MB, Compressed Oops mode: 32-bit
+[2022-02-19T17:13:26.201+0700][gc,start     ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2022-02-19T17:13:26.201+0700][gc,task      ] GC(0) Using 1 workers of 1 for evacuation
+[2022-02-19T17:13:26.233+0700][gc,mmu       ] GC(0) MMU target violated: 21.0ms (20.0ms/21.0ms)
+[2022-02-19T17:13:26.233+0700][gc,phases    ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2022-02-19T17:13:26.233+0700][gc,phases    ] GC(0)   Evacuate Collection Set: 31.1ms
+[2022-02-19T17:13:26.233+0700][gc,phases    ] GC(0)   Post Evacuate Collection Set: 1.2ms
+[2022-02-19T17:13:26.233+0700][gc,phases    ] GC(0)   Other: 0.3ms
+[2022-02-19T17:13:26.233+0700][gc,heap      ] GC(0) Eden regions: 51->0(44)
+[2022-02-19T17:13:26.233+0700][gc,heap      ] GC(0) Survivor regions: 0->7(7)
+[2022-02-19T17:13:26.233+0700][gc,heap      ] GC(0) Old regions: 0->1
+[2022-02-19T17:13:26.233+0700][gc,heap      ] GC(0) Humongous regions: 0->0
+[2022-02-19T17:13:26.233+0700][gc,metaspace ] GC(0) Metaspace: 15261K->15261K(1062912K)
+[2022-02-19T17:13:26.233+0700][gc           ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 51M->7M(1024M) 32.657ms
+[2022-02-19T17:13:26.233+0700][gc,cpu       ] GC(0) User=0.01s Sys=0.01s Real=0.03s
+[2022-02-19T17:13:26.409+0700][gc,heap,exit ] Heap
+[2022-02-19T17:13:26.409+0700][gc,heap,exit ]  garbage-first heap   total 1048576K, used 8248K [0x00000000c0000000, 0x0000000100000000)
+[2022-02-19T17:13:26.409+0700][gc,heap,exit ]   region size 1024K, 9 young (9216K), 7 survivors (7168K)
+[2022-02-19T17:13:26.409+0700][gc,heap,exit ]  Metaspace       used 15426K, capacity 15877K, committed 16128K, reserved 1062912K
+[2022-02-19T17:13:26.409+0700][gc,heap,exit ]   class space    used 2089K, capacity 2295K, committed 2304K, reserved 1048576K
